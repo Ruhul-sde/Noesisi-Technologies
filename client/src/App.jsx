@@ -6,12 +6,12 @@ import { Toaster } from "./components/ui/toaster";
 import { TooltipProvider } from "./components/ui/tooltip";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
-import Home from "././pages/Home";
-import Services from "././pages/Services";
-import Technology from "././pages/Technology";
-import About from "././pages/About";
-import Contact from "././pages/Contact";
-import NotFound from "../pages/NotFound";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Technology from "./pages/Technology";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/not-found";
 
 function App() {
   return (

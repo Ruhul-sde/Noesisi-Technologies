@@ -1,5 +1,5 @@
 
-import { Stats } from '@/components/Stats';
+import { Stats } from './../components/Stats';
 import { useEffect } from 'react';
 
 export default function About() {
