@@ -1,9 +1,8 @@
-
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Facebook } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 
-export function Footer() {
+export default function Footer() {  // ✅ Changed to default export
   const footerLinks = {
     Services: ['Cloud Solutions', 'Cybersecurity', 'AI & ML', 'Custom Development', 'Data Analytics', 'DevOps'],
     Company: ['About Us', 'Careers', 'Blog', 'Press', 'Partners', 'Contact'],

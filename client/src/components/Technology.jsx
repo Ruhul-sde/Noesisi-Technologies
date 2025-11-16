@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { CheckCircle2 } from 'lucide-react';
-import { useParallax } from '@/hooks/useParallax';
+import { useParallax } from '../hooks/useParallax';
 
 export function Technology() {
   const canvasRef = useRef(null);

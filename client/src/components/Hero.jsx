@@ -2,9 +2,9 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { NeuralBackground } from './NeuralBackground';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 import { ArrowRight, Sparkles } from 'lucide-react';
-import { useParallax } from '@/hooks/useParallax';
+import { useParallax } from '../hooks/useParallax';
 
 export function Hero() {
   const [isLoaded, setIsLoaded] = useState(false);

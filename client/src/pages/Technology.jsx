@@ -1,5 +1,5 @@
 
-import { Technology as TechnologyComponent } from '@/components/Technology';
+import { Technology as TechnologyComponent } from '../components/Technology';
 
 export default function Technology() {
   return (

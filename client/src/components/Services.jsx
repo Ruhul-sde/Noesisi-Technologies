@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { Cloud, Shield, Brain, Code, Database, Zap } from 'lucide-react';
-import { Card } from '@/components/ui/card';
+import { Card } from '../components/ui/card';
 
 export function Services() {
   const [visibleCards, setVisibleCards] = useState([]);
